@@ -1,0 +1,25 @@
+# このファイルより上位の設定を検索しない。必ず先頭に記述する：“true”, “false”
+root = true
+
+[*]
+# インデントの種類：“tab”, “space”
+indent_style = space
+
+#インデントの各階層の幅：整数
+indent_size = 2
+
+# 改行コード：“lf”, “cr”, “crlf”
+end_of_line = crlf
+
+# 文字コード：“latin1”, “utf-8”, “utf-8-bom”, “utf-16be” “utf-16le”　※「Shift JIS」は使えない
+charset = utf-8
+
+# 行末の空白を除去：“true”, “false”
+trim_trailing_whitespace = true
+
+# 末尾に空行を追加：“true”, “false”
+insert_final_newline = true
+
+# 拡張子が.mdファイルの場合
+[*.md]
+trim_trailing_whitespace = false
