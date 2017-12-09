@@ -63,19 +63,19 @@ section, article
   border groove 2px!important
 
 dt, em
-  animation blink 1.5s infinite!important
+  animation blink 1s step-end infinite!important
   background-color blue!important
   color lime!important
 
 strong, b
-  animation blink 2s infinite!important
+  animation blink 1.2s step-end infinite!important
   background-color red!important
   color yellow!important
 
-@keyframes
-  blink
-    0% opacity 1
-    100% opacity 0
+@keyframes blink
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
 
 nav, ul, ol, dl
   background-color purple!important
