@@ -5,7 +5,7 @@ Overview
 
 ## Description
 
-It is Chrome Expansion which transforms fashionable site into old-fashioned design.
+This Chrome Extension turns fashionable sites into old-fashioned designs.
 
 ## Licence
 
